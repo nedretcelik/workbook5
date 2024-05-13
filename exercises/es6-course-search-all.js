@@ -90,6 +90,8 @@ console.log("the titles of the courses that cost $50 or less  " +titleArr)
 
 let classroom1 = courses.filter(course => course.Location == "Classroom 1");
 
+console.log(classroom1)
+
 let classArr = [];
 
 for (const course of classroom1) {
