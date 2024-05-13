@@ -25,4 +25,4 @@ let foundItem = menuItems.find(find4);
 //     }
 // }
 
-console.log(foundItem);
+console.log(foundItem.category);

@@ -8,7 +8,7 @@ let menuItems = [
   { id: 5, item: "Coke", category: "Drink", price: 2.29 },
 ];
 
-let matchingItem = []
+/* let matchingItem = []
 
 for (const item of menuItems) {
     if(item.category== "Drink"){
@@ -17,4 +17,19 @@ for (const item of menuItems) {
     }
 }
 
-console.log(matchingItem);
+console.log(matchingItem); */
+
+
+function isDrink(item) {
+    if(item.category == "Drink") {
+        return true;
+    } else {
+        return false;
+    }
+
+}
+
+
+let matchingItems = menuItems.filter(isDrink)
+
+console.log(matchingItems)
