@@ -51,6 +51,15 @@ let foundPROG200 = courses.find(isPROG200)
 console.log("the PROG200 course start " + foundPROG200.StartDate)
 
 
+
+// arrow function
+
+
+
+
+
+
+
 // What is the title of the PROJ500 course?
 
 
