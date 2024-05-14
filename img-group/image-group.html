@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Group</title>
+  </head>
+  <body>
+    <div class="imageGroup">
+      <img src="./images/event3.jpeg" width="300px"/>
+      <p>describe image above</p>
+    </div>
+    <div class="imageGroup">
+      <img src="./images/event3.jpeg" width="300px"/>
+      <p>describe image above</p>
+    </div>
+    <div class="imageGroup">
+      <img src="./images/event3.jpeg" width="300px"/>
+      <p>describe image above</p>
+    </div>
+    <div class="imageGroup">
+      <img src="./images/event3.jpeg" width="300px"/>
+      <p>describe image above</p>
+    </div>
+
+
+
+    <script>
+        window.onload = function() {
+            let imageGroupDiv = document.querySelectorAll(".imageGroup");
+
+            for (const div of imageGroupDiv) {
+              div.style.border = "1px solid red"
+              
+            }
+
+            let imageAlt = document.querySelectorAll("img:not([alt])");
+
+            for (const img of imageAlt) {
+              img.alt = "graffiti image"
+              
+            }
+            
+        }
+    </script>
+  </body>
+</html>
