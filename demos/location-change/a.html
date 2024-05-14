@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A</title>
+</head>
+<body>
+    <h3>A</h3>
+    <button id="bButton">Go to </button>
+    <a href="./b.html"></a>
+
+    <script>
+        let bButton = document.getElementById("bButton");
+
+        bButton.onclick = goToB;
+
+        function goToB() {
+            console.log("save the data")
+            window.location.href = "./b.html"
+        }
+
+    </script>
+
+</body>
+</html>
