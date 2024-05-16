@@ -86,7 +86,7 @@ function displayMatchingImages() {
     if (imageFile.id == imageList.value) {
       let image = document.createElement("img");
       image.src = imageFile.path;
-      image.alt = imageFile.id;
+      image.alt = imageFile.description;
 
       imageContainer.appendChild(image);
     }
